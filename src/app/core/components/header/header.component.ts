@@ -1,10 +1,14 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { CommonAnimations } from 'src/app/shared/shared.module';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  styleUrls: ['./header.component.scss'],
+  animations: [
+    CommonAnimations.slideIn
+  ]
 })
 
 export class HeaderComponent implements OnInit {
@@ -12,18 +16,15 @@ export class HeaderComponent implements OnInit {
   @Input()
   hideSocialHeader: Boolean = false;
 
+  isBurgerMenuOpen: Boolean = false;
+
   constructor (private translateService: TranslateService) {}
 
   ngOnInit(): void {
   }
 
   toggleMenu(): void {
-    const navbarMenu = document.getElementById('navbar-menu');
-    if (navbarMenu!.classList.contains('is-active')) {
-      navbarMenu!.classList.remove('is-active');
-    } else {
-      navbarMenu!.classList.add('is-active');
-    }
+    this.isBurgerMenuOpen = !this.isBurgerMenuOpen;
   }
 
   toggleLanguage(): void {

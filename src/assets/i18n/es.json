@@ -22,7 +22,7 @@
     },
     "html": {
       "title": "HTML & CSS",
-      "content": "El esqueleto de una web bien estructurada y adaptable. Usar HTML y CSS para poco a poco construir el diseño que has visionado te hace sentir realmente realizado."
+      "content": "El esqueleto de una web bien estructurada y adaptable. Usar HTML y CSS para poco a poco construir el diseño que has visionado te hace sentir muy realizado."
     }
   },
   "projects": {
@@ -30,7 +30,7 @@
     "worki": {
       "header": "Editor gráfico",
       "title": "Worki Process",
-      "content": "Un editor gráfico que te permite crear, editar y diseñar flujos de trabajo para tus proyectos agile dentro de la aplicación web de Worki Process. El editor fue creado usando Angular e integrado dentro de la aplicación con la colaboración del equipo de desarrollo de Worki Process para mi Trabajo de Fin de Grado."
+      "content": "Un editor gráfico que te permite crear, editar y diseñar flujos de trabajo para tus proyectos dentro de la aplicación web de Worki Process. El editor fue creado usando Angular e integrado dentro de la aplicación con la colaboración del equipo de desarrollo de Worki Process para mi Trabajo de Fin de Grado."
     },
     "employee-manager": {
       "header": "Proyecto Full-stack",
@@ -40,7 +40,7 @@
     "jemarhe": {
       "header": "Portfolio web",
       "title": "Jemarhe.com",
-      "content": "La página en la que estás ahora mismo. La he creado completamente desde cero, usando todo lo que sé: desde aplicar principios de diseño para crear un prototipo hasta traerlo a la vida usando HTML, CSS y Angular."
+      "content": "La página en la que se encuentra ahora mismo. La he creado completamente desde cero, usando todo lo que sé: desde aplicar principios de diseño para crear un prototipo, hasta traerlo a la vida usando HTML, CSS y Angular."
     },
     "cta-title": "¿Te gusta lo que ves?",
     "cta-button": "¡Contrátame!"

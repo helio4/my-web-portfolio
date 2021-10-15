@@ -2,7 +2,7 @@
 <div @fadeInDownCascade *ngIf="isFeatured" class="project-container is-featured">
   <div class="inner cascade">
     <p class="subtitle">{{ 'projects.featured' | translate }}</p>
-    <a href="#" class="featured-title">{{ 'projects.' + projectName + '.title' | translate }}</a>
+    <a href="{{ projectUrl }}" target="_blank" class="featured-title">{{ 'projects.' + projectName + '.title' | translate }}</a>
     <p class="featured-desc">{{ 'projects.' + projectName + '.content' | translate }}</p>
   </div>
 
@@ -13,7 +13,7 @@
 <div @fadeInDownCascade *ngIf="!isFeatured && !isFlipped" class="project-container left">
   <div class="inner transition2 cascade">
     <p class="subtitle">{{ 'projects.' + projectName + '.header' | translate }}</p>
-    <a href="#" class="featured-title">{{ 'projects.' + projectName + '.title' | translate }}</a>
+    <a href="{{ projectUrl }}" target="_blank" class="featured-title">{{ 'projects.' + projectName + '.title' | translate }}</a>
     <p class="featured-desc">{{ 'projects.' + projectName + '.content' | translate }}</p>
   </div>
 
@@ -24,7 +24,7 @@
 <div @fadeInDownCascade *ngIf="!isFeatured && isFlipped" class="project-container right">
   <div class="inner transition2 cascade">
     <p class="subtitle">{{ 'projects.' + projectName + '.header' | translate }}</p>
-    <a href="#" class="featured-title">{{ 'projects.' + projectName + '.title' | translate }}</a>
+    <a href="{{ projectUrl }}" target="_blank" class="featured-title">{{ 'projects.' + projectName + '.title' | translate }}</a>
     <p class="featured-desc">{{ 'projects.' + projectName + '.content' | translate }}</p>
   </div>
 

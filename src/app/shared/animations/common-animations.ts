@@ -25,6 +25,18 @@ export const CommonAnimations = {
         ])
       ])
     ])
+  ]),
+  slideIn: trigger('slideIn', [
+    state('hidden', style({
+    })),
+    state('showing', style({
+      opacity: 1,
+      transform: 'none',
+      'pointer-events': 'unset'
+    })),
+    transition('hidden <=> showing', 
+      animate('400ms ease-in-out')
+    )
   ])
 }
 

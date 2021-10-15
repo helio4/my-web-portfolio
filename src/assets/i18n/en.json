@@ -22,7 +22,7 @@
     },
     "html": {
       "title": "HTML & CSS",
-      "content": "The barebones of a good and responsive website. Using HTML and CSS to slowly but surely create the design you envisioned is one of the most rewarding feelings ever."
+      "content": "The barebones of a good and responsive website. Using HTML and CSS to slowly but surely create your envisioned design is one of the most rewarding feelings ever."
     }
   },
   "projects": {
@@ -35,7 +35,7 @@
     "employee-manager": {
       "header": "Full-stack Project",
       "title": "Employee Manager",
-      "content": "A practice project that involves creating a back-end server with Spring Boot and integrate it with Angular. The motivation was to learn more about back-end development since I consider a front-end developer must have a somewhat deep understanding of how it works."
+      "content": "A practice project that involves creating a back-end server with Spring Boot and integrating it with Angular. The motivation was to learn more about back-end development since I consider a front-end developer must have a somewhat deep understanding of how it works."
     },
     "jemarhe": {
       "header": "Web Portfolio",

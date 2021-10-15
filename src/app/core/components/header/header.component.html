@@ -4,7 +4,7 @@
 
     <img (click)="toggleMenu()" id="burger" src="../../../../assets/icons/burger_icon.svg" alt="Open navigation menu">
 
-    <nav id="navbar-menu">
+    <nav id="navbar-menu" [@slideIn]="isBurgerMenuOpen ? 'showing' : 'hidden'">
       <img id="exit-menu" (click)="toggleMenu()" src="../../../../assets/icons/exit.svg" alt="Close navigation menu">
 
       <ul class="navbar">
@@ -20,7 +20,7 @@
         
         <ul>
           <li><a href="https://www.linkedin.com/in/jemarhe/" target="_blank"><img src="../../../assets/icons/linkedin_logo.svg" alt="Linkedin"></a></li>
-          <li><a href="#" target="_blank"><img src="../../../assets/icons/github_logo.svg" alt="Github"></a></li>
+          <li><a href="http://github.jemarhe.com/" target="_blank"><img src="../../../assets/icons/github_logo.svg" alt="Github"></a></li>
         </ul>
       </div>
     </nav>

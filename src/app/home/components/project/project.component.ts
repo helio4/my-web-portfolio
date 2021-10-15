@@ -17,6 +17,8 @@ export class ProjectComponent implements OnInit {
   projectName: string = "";
   @Input()
   isFlipped: Boolean = false;
+  @Input()
+  projectUrl: string = "#";
 
   constructor() { }
 
