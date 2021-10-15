@@ -1,0 +1,64 @@
+{
+  "header": {
+    "skills": "My skills",
+    "work": "My work",
+    "contact": "Contact me"
+  },
+  "hero": {
+    "greeting": "Hello there!",
+    "name": "I'm Jesús Martínez",
+    "title": "Front-end Developer",
+    "call-to-action": "Meet me down below!"
+  },
+  "skills": {
+    "title": "My Skills",
+    "ts": {
+      "title": "Typescript",
+      "content": "I've been a fan of JavaScript and its frameworks for years. So, as an evolution of JS, TypeScript is one of my favorites programming languages to create solid and robust code."
+    },
+    "angular": {
+      "title": "Angular",
+      "content": "A powerful framework to create flexible and scalable web experiences. It has been my go-to framework for front-end development for the last 3 years."
+    },
+    "html": {
+      "title": "HTML & CSS",
+      "content": "The barebones of a good and responsive website. Using HTML and CSS to slowly but surely create the design you envisioned is one of the most rewarding feelings ever."
+    }
+  },
+  "projects": {
+    "featured": "Featured project",
+    "worki": {
+      "header": "Graphic editor",
+      "title": "Worki Process",
+      "content": "A graphic editor that lets you create, edit and design workflows for your agile projects on the Worki Process web app. It was made using Angular and integrated into the app with the collaboration of the Worki Process team for my Degree Final Project."
+    },
+    "employee-manager": {
+      "header": "Full-stack Project",
+      "title": "Employee Manager",
+      "content": "A practice project that involves creating a back-end server with Spring Boot and integrate it with Angular. The motivation was to learn more about back-end development since I consider a front-end developer must have a somewhat deep understanding of how it works."
+    },
+    "jemarhe": {
+      "header": "Web Portfolio",
+      "title": "Jemarhe.com",
+      "content": "This very own website. I made it entirely from scratch, using everything I know: from applying design fundamentals to creating a mock-up and making it into a reality using HTML, CSS, and Angular."
+    },
+    "cta-title": "Like what you see?",
+    "cta-button": "Hire me!"
+  },
+  "contact": {
+    "title": "Contact form",
+    "name": "Name:",
+    "name-help": "A name is required.",
+    "email": "Your email:",
+    "email-help": "Please input a valid email.",
+    "message": "Your message:",
+    "message-help": "Please write your message.",
+    "submit": "Send Message",
+    "error-title": "There was an error!",
+    "error-content": "Try again or send your message to \"contact@jemarhe.com\" instead.",
+    "success-title": "Thank you for your message!",
+    "success-content": "Your message was sent. I will get back to you as soon as possible.",
+    "continue": "Continue",
+    "social-cta": "You can also find me here!"
+  }
+}

@@ -1,0 +1,11 @@
+<app-hero-section></app-hero-section>
+<app-skills-section></app-skills-section>
+<div class="projects-container">
+  <app-project id="my-work" [projectName]="'worki'" [isFeatured]="true"></app-project>
+  <app-project [projectName]="'employee-manager'" [isFlipped]="true"></app-project>
+  <app-project [projectName]="'jemarhe'"></app-project>
+  <div @fadeInDownCascade class="cta-container">
+    <h1 class="title cascade" >{{ 'projects.cta-title' | translate }}</h1>
+    <a routerLink="/contact" class="button cascade">{{ 'projects.cta-button' | translate }}</a>
+  </div>
+</div>

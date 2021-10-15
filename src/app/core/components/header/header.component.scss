@@ -1,0 +1,188 @@
+a {
+  cursor: pointer;
+}
+
+.nav-container {
+  background: #112936;
+
+  a {
+    color: white;
+  }
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em var(--side-padding);
+
+  nav {
+    display: none;
+    z-index: 999;
+    width: 66%;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    padding: 1em;
+    position: absolute;
+    
+    background: #3f4246;
+
+    .navbar {
+      margin-top: 3.2em;
+
+      a {
+        display: block;
+        font-size: 1.2em;
+        padding: 0.7em 1em;
+      }
+
+    } 
+
+    .social-header {
+      margin: 1em 1em;
+      padding-top: 1.3em;
+      border-top: 1px solid rgb(201, 201, 201);
+
+      hr {
+        display: none;
+      }
+
+      #lang-button {
+        display: none;
+      }
+
+      ul {
+        display: flex;
+        float: right;
+        li {
+          margin-right: 1.3em;
+
+          img {
+            width: 2.5em;
+          }
+        }
+      }
+    }
+  }
+
+  nav.is-active {
+    display: block;
+  }
+
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: auto 0;
+}
+
+#burger {
+  color: white;
+  float: right;
+  width: 1.7em;
+  cursor: pointer;
+}
+
+#exit-menu {
+  width: 1.6em;
+  float: right;
+  margin: 1em 1em;
+  cursor: pointer;
+}
+
+a:active, #lang-button:active, a img:active {
+  opacity: .6;
+}
+
+@media only screen and (min-width: 800px) {
+  
+  #burger, #exit-menu {
+    display: none;
+  }
+
+  header  {
+    display: flex;
+    justify-content: unset;
+
+    nav {
+      display: flex;
+      width: unset;
+      right: unset;
+      top: unset;
+      height: unset;
+      padding: unset;
+      position: unset;
+      
+      background: unset;
+      justify-content: space-between;
+      margin: auto 0;
+      width: 100%;
+
+      .navbar {
+        margin-top: auto;
+        margin-bottom: auto;
+        float: left;
+        display: flex;
+        left: unset;
+        a {
+          float: left; 
+          font-size: 1.2em;
+          padding: 0;
+          margin-left: 2em;
+        }
+
+      } 
+
+      .social-header {
+        margin: auto 0;
+        padding-top: unset;
+        border-top: unset;
+        float: right;
+        display: flex;
+
+        #lang-button {
+          display: unset;
+          margin: auto 0;
+          height: 1.5em;
+          padding-right: 1.2em;
+          cursor: pointer;
+        }
+
+        hr {
+          display: unset;
+          margin: 0;
+        }
+
+        ul {
+          display: flex;
+          float: right;
+          
+          li {
+            margin-right: unset;
+            margin-left: 1.2em;
+            vertical-align: middle;
+            height: 100%;
+            line-height: 100%;
+
+            a {
+              height: 100%;
+            }
+
+            img {
+              display: block;
+              margin: auto 0;
+              width: 1.7em;
+            }
+          }
+        }
+      }
+    }
+
+    nav.is-active {
+      display: unset;
+    }
+  }
+
+}

@@ -1,0 +1,150 @@
+$topPadding: 8;
+
+.skills-container {
+  min-height: 66em;
+}
+
+.skills-container {
+  text-align: center;
+  padding: #{$topPadding}em var(--side-padding);
+  position: relative;
+
+  ul {
+    margin-top: 30px;
+
+    li {
+      margin-top: 30px;
+      background: #E6E8E9;
+      border-radius: 20px;
+      padding: 1.8em;
+    }
+  }
+}
+
+h1 {
+  text-transform: uppercase;
+  color: var(--primary-color);
+  font-size: 2.8em;
+  margin: 0;
+}
+
+.skill-icon {
+  position: absolute;
+  width: 120px;
+  top: calc(#{$topPadding}em - 45px);
+  left: -178px;
+  right: 0;
+  margin: auto auto;
+  opacity: 0.1;
+}
+
+.icon-container {
+  margin: auto;
+  width: 6em;
+}
+
+.skill-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.8em;
+  margin: .3em 0;
+  letter-spacing: .02em;
+}
+
+.skill-content {
+  margin: 0;
+  margin-bottom: 1em;
+  font-size: 1em;
+  line-height: 2em;
+  color: #3f3f3f;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 800px) {
+
+  .skills-container {
+    min-height: 33em;
+  }
+
+  .skills-container ul {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    grid-gap: 1.5em;
+  }
+  
+  h1 {
+    text-align: left;
+  }
+  
+  .skill-icon {
+    left: 3px;
+    margin: auto 0;
+  }
+
+}
+
+@media only screen and (min-width: 1050px) {
+
+  .skills-container {
+    min-height: 31em;
+  }
+
+  .skills-container ul {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    grid-gap: 1.5em;
+  }
+  
+  h1 {
+    text-align: left;
+  }
+  
+  .skill-icon {
+    left: 27px;
+    margin: auto 0;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+
+  .skills-container {
+    padding-top: 10em;
+    padding-bottom: 10em;
+
+    .skill-icon {
+      top: calc(10em - 45px);
+      left: calc(10em - 37px);
+    }
+  }
+
+}
+
+@media only screen and (min-width: 1550px) {
+
+  .skills-container {
+    padding-top: 12em;
+    padding-bottom: 12em;
+
+    .skill-icon {
+      top: calc(12em - 45px);
+      left: calc(15em - 37px);
+    }
+  }
+
+}
+
+@media only screen and (min-width: 2100px) {
+
+  .skills-container {
+    padding-top: 15em;
+    padding-bottom: 15em;
+
+    .skill-icon {
+      top: calc(15em - 45px);
+      left: calc(30em - 37px);
+    }
+  }
+
+}

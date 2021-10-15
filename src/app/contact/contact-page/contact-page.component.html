@@ -1,0 +1,63 @@
+
+<div @fadeInDownCascade class="contact-container">
+  <h1 class="cascade">{{ 'contact.title' | translate}}</h1>
+  <form *ngIf="requestSuccessful === null" (ngSubmit)="submitForm(contactForm)" #contactForm="ngForm">
+
+    <!-- Name field -->
+    <div class="field cascade">
+      <label for="name">{{ 'contact.name' | translate }}</label>
+      <input type="text" name="name" [(ngModel)]="name" #nameInput="ngModel" required>
+
+      <div class="help" *ngIf="nameInput.invalid && nameInput.touched">
+        {{ 'contact.name-help' | translate }}
+      </div>
+    </div>
+
+    <!-- Email field -->
+    <div class="field cascade">
+      <label>{{ 'contact.email' | translate }}</label>
+      <input type="email" name="email" [(ngModel)]="email" #emailInput="ngModel" required email>
+      
+      <div class="help" *ngIf="emailInput.invalid && emailInput.touched">
+        {{ 'contact.email-help' | translate }}
+      </div>
+    </div>
+
+    <!-- Message field -->
+    <div class="field cascade">
+      <label>{{ 'contact.message' | translate }}</label>
+      <textarea name="message" [(ngModel)]="message" #messageInput="ngModel" required textarea-autoresize></textarea>
+
+      <div class="help" *ngIf="messageInput.invalid && messageInput.touched">
+        {{ 'contact.message-help' | translate }}
+      </div>
+    </div>
+
+    <div class="field cascade">
+      <button type="submit" [disabled]="contactForm.invalid || submitted">{{ 'contact.submit' | translate }}</button>
+    </div>
+
+  </form>
+
+  <div *ngIf="requestSuccessful !== null" class="confirmation">
+    <div *ngIf="requestSuccessful === false" class="error-container">
+      <img src="../../../assets/icons/error.svg" alt="Error icon">
+      <h2>{{ 'contact.error-title' | translate }}</h2>
+      <p>{{ 'contact.error-content' | translate }}</p>
+    </div>
+    <div *ngIf="requestSuccessful === true" class="success-container">
+      <img src="../../../assets/icons/success.svg" alt="Error icon">
+      <h2>{{ 'contact.success-title' | translate }}</h2>
+      <p>{{ 'contact.success-content' | translate }}</p>
+    </div>
+    <button (click)="goBackToForm()">{{ 'contact.continue' | translate }}</button>
+  </div>
+
+  <div class="social-networks cascade">
+    <h2>{{ 'contact.social-cta' | translate }}</h2>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/jemarhe/" target="_blank"><img src="../../../assets/icons/linkedin_logo.svg" alt="My Linkedin"></a></li>
+      <li><a href="" target="_blank"><img src="../../../assets/icons/github_logo.svg" alt="My Github"></a></li>
+    </ul>
+  </div>
+</div>

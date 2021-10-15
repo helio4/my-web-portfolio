@@ -1,0 +1,64 @@
+{
+  "header": {
+    "skills": "Habilidades",
+    "work": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "¡Bienvenido!",
+    "name": "Soy Jesús Martínez",
+    "title": "Desarrollador Front-end",
+    "call-to-action": "¡Baja para conocerme!"
+  },
+  "skills": {
+    "title": "Mis habilidades",
+    "ts": {
+      "title": "Typescript",
+      "content": "He sido un fan de JavaScript y sus frameworks durante años. Así que, como una evolución de JS, TypeScript es uno de mis lenguajes de programación favoritos para la creación de código sólido y robusto."
+    },
+    "angular": {
+      "title": "Angular",
+      "content": "Un framework potente para crear experiencias web que sean flexibles y escalables. Ha sido mi framework de preferencia para el desarrollo front-end durante los últimos 3 años."
+    },
+    "html": {
+      "title": "HTML & CSS",
+      "content": "El esqueleto de una web bien estructurada y adaptable. Usar HTML y CSS para poco a poco construir el diseño que has visionado te hace sentir realmente realizado."
+    }
+  },
+  "projects": {
+    "featured": "Proyecto destacado",
+    "worki": {
+      "header": "Editor gráfico",
+      "title": "Worki Process",
+      "content": "Un editor gráfico que te permite crear, editar y diseñar flujos de trabajo para tus proyectos agile dentro de la aplicación web de Worki Process. El editor fue creado usando Angular e integrado dentro de la aplicación con la colaboración del equipo de desarrollo de Worki Process para mi Trabajo de Fin de Grado."
+    },
+    "employee-manager": {
+      "header": "Proyecto Full-stack",
+      "title": "Employee Manager",
+      "content": "Un proyecto de práctica que consiste en la creación de un back-end creado con Spring Boot e integrado con Angular. La motivación de este proyecto es aprender más sobre desarrollo back-end, ya que considero que un desarrollador front-end debe tener unos conocimientos mínimos sobre como funciona el lado del back-end."
+    },
+    "jemarhe": {
+      "header": "Portfolio web",
+      "title": "Jemarhe.com",
+      "content": "La página en la que estás ahora mismo. La he creado completamente desde cero, usando todo lo que sé: desde aplicar principios de diseño para crear un prototipo hasta traerlo a la vida usando HTML, CSS y Angular."
+    },
+    "cta-title": "¿Te gusta lo que ves?",
+    "cta-button": "¡Contrátame!"
+  },
+  "contact": {
+    "title": "Formulario de contacto",
+    "name": "Nombre:",
+    "name-help": "Es necesario un nombre.",
+    "email": "Su email:",
+    "email-help": "Este email no es válido.",
+    "message": "Su mensaje:",
+    "message-help": "Por favor escriba su mensaje.",
+    "submit": "Enviar Mensaje",
+    "error-title": "¡Ha ocurrido un error!",
+    "error-content": "Pruebe más tarde o envíe su mensaje a \"contacto@jemarhe.com\".",
+    "success-title": "¡Gracias por su mensaje!",
+    "success-content": "Su mensaje ha sido enviado. Contestaré tan rápido como pueda.",
+    "continue": "Continuar",
+    "social-cta": "¡También me puedes encontar aquí!"
+  }
+}

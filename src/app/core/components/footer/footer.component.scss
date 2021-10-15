@@ -1,0 +1,34 @@
+.footer-container {
+  display: none;
+  background: #112936;
+  position: relative;
+  height: 290px;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+    top: -3em;
+    right: -2em;
+    height: 25em;
+    width: auto;
+    opacity: .05;
+  }
+}
+
+
+@media only screen and (min-width: 800px) {
+
+  .footer-container {
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 980px) {
+
+  .footer-container img {
+    right: 0;
+    padding-right: var(--side-padding);
+  }
+
+}
