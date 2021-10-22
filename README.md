@@ -19,7 +19,7 @@ The project was made and completed in the course of a week.
 5. Using TypeScript I wrote the animations and the logic of the website.
 6. Using Cloudflare I configured my DNS for <a href="https://jemarhe.com">jemarhe.com</a>, and finally deployed the website using GitHub Pages.
 
-## Used technologies
+## Used Technologies
 
 * Angular
 * HTML5
