@@ -16,8 +16,8 @@ The project was made and completed in the course of a week.
 2. Taking the design and Angular capabilities into account, I conceptualized the structure of the site: how I would break down the different UI elements into Angular components, the behavior of said elements, et cetera.
 3. I created the basic modules and components I would need and wrote the basic HTML structure.
 4. I applied styling using SCSS, following a mobile-first approach, as I worked my way up with the different resolutions. The final product was a responsive design that would work in all kinds of modern devices.
-5. Using TypeScript I wrote the animations and the logic of the website.
-6. Using Cloudflare I configured my DNS for <a href="https://jemarhe.com">jemarhe.com</a>, and finally deployed the website using GitHub Pages.
+5. Using TypeScript, I wrote the animations and the logic of the website.
+6. Using Cloudflare, I configured my DNS for <a href="https://jemarhe.com">jemarhe.com</a> and finally deployed the website using GitHub Pages.
 
 ## Used Technologies
 
