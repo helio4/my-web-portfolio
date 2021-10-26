@@ -1,33 +1,72 @@
 <!-- Featured Project -->
-<div @fadeInDownCascade *ngIf="isFeatured" class="project-container is-featured">
+<div
+  @fadeInDownCascade
+  *ngIf="isFeatured"
+  class="project-container is-featured"
+>
   <div class="inner cascade">
-    <p class="subtitle">{{ 'projects.featured' | translate }}</p>
-    <a href="{{ projectUrl }}" target="_blank" class="featured-title">{{ 'projects.' + projectName + '.title' | translate }}</a>
-    <p class="featured-desc">{{ 'projects.' + projectName + '.content' | translate }}</p>
+    <p class="subtitle">{{ "projects.featured" | translate }}</p>
+    <a href="{{ projectUrl }}" target="_blank" class="featured-title">{{
+      "projects." + projectName + ".title" | translate
+    }}</a>
+    <p class="featured-desc">
+      {{ "projects." + projectName + ".content" | translate }}
+    </p>
   </div>
 
-  <img class="cascade" src="../../../../assets/images/{{ projectName }}.png" alt="Featured project">
+  <img
+    class="cascade"
+    src="../../../../assets/images/{{ projectName }}.png"
+    alt="Featured project"
+  />
 </div>
 
 <!-- Regular -->
-<div @fadeInDownCascade *ngIf="!isFeatured && !isFlipped" class="project-container left">
+<div
+  @fadeInDownCascade
+  *ngIf="!isFeatured && !isFlipped"
+  class="project-container left"
+>
   <div class="inner transition2 cascade">
-    <p class="subtitle">{{ 'projects.' + projectName + '.header' | translate }}</p>
-    <a href="{{ projectUrl }}" target="_blank" class="featured-title">{{ 'projects.' + projectName + '.title' | translate }}</a>
-    <p class="featured-desc">{{ 'projects.' + projectName + '.content' | translate }}</p>
+    <p class="subtitle">
+      {{ "projects." + projectName + ".header" | translate }}
+    </p>
+    <a href="{{ projectUrl }}" target="_blank" class="featured-title">{{
+      "projects." + projectName + ".title" | translate
+    }}</a>
+    <p class="featured-desc">
+      {{ "projects." + projectName + ".content" | translate }}
+    </p>
   </div>
 
-  <img class="cascade" src="../../../../assets/images/{{ projectName }}.png" alt="Project screenshot">
+  <img
+    class="cascade"
+    src="../../../../assets/images/{{ projectName }}.png"
+    alt="Project screenshot"
+  />
 </div>
 
 <!-- Flipped -->
-<div @fadeInDownCascade *ngIf="!isFeatured && isFlipped" class="project-container right">
+<div
+  @fadeInDownCascade
+  *ngIf="!isFeatured && isFlipped"
+  class="project-container right"
+>
   <div class="inner transition2 cascade">
-    <p class="subtitle">{{ 'projects.' + projectName + '.header' | translate }}</p>
-    <a href="{{ projectUrl }}" target="_blank" class="featured-title">{{ 'projects.' + projectName + '.title' | translate }}</a>
-    <p class="featured-desc">{{ 'projects.' + projectName + '.content' | translate }}</p>
+    <p class="subtitle">
+      {{ "projects." + projectName + ".header" | translate }}
+    </p>
+    <a href="{{ projectUrl }}" target="_blank" class="featured-title">{{
+      "projects." + projectName + ".title" | translate
+    }}</a>
+    <p class="featured-desc">
+      {{ "projects." + projectName + ".content" | translate }}
+    </p>
   </div>
 
-  <img class="cascade" src="../../../../assets/images/{{ projectName }}.png" alt="Project screenshot">
+  <img
+    class="cascade"
+    src="../../../../assets/images/{{ projectName }}.png"
+    alt="Project screenshot"
+  />
 </div>
-

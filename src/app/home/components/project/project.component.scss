@@ -29,19 +29,20 @@ $topPadding: 8;
   .subtitle {
     text-transform: uppercase;
     font-size: 1.4em;
-    letter-spacing: .1em;
-    margin-bottom: .2em;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.2em;
     color: var(--secondary-color);
   }
 }
 
 .is-featured {
-  background: linear-gradient(114.47deg, #213C4D 17.91%, #2B495C 89.01%);;
+  background: linear-gradient(114.47deg, #213c4d 17.91%, #2b495c 89.01%);
   padding: 4em var(--side-padding);
   padding-top: #{$topPadding}em;
   padding-bottom: 5em;
 
-  .featured-title, .featured-desc {
+  .featured-title,
+  .featured-desc {
     color: white;
   }
 
@@ -54,8 +55,7 @@ $topPadding: 8;
   }
 }
 
-@media only screen and (min-width: 800px) { 
-
+@media only screen and (min-width: 800px) {
   .project-container {
     text-align: left;
     display: grid;
@@ -79,7 +79,7 @@ $topPadding: 8;
       display: grid;
       place-content: center;
     }
-  
+
     img {
       border-radius: 20px;
       margin-left: auto;
@@ -88,27 +88,28 @@ $topPadding: 8;
       margin-bottom: auto;
     }
   }
-  
+
   .is-featured {
-    background: linear-gradient(114.47deg, #213C4D 17.91%, #2B495C 89.01%);;
-    
-    .featured-title, .featured-desc {
+    background: linear-gradient(114.47deg, #213c4d 17.91%, #2b495c 89.01%);
+
+    .featured-title,
+    .featured-desc {
       color: white;
     }
-  
+
     .featured-title {
       font-size: 2.5em;
       font-weight: bold;
       line-height: 1.25em;
     }
-  
+
     .featured-desc {
       font-weight: normal;
       font-size: 1em;
       line-height: 1.9em;
       margin-bottom: 4vh;
     }
-  
+
     .subtitle {
       color: var(--accent-color);
     }
@@ -127,7 +128,6 @@ $topPadding: 8;
 }
 
 @media only screen and (min-width: 1250px) {
-
   .project-container {
     padding: 6em var(--side-padding);
   }
@@ -136,11 +136,9 @@ $topPadding: 8;
     padding-top: 10em;
     padding-bottom: 7.3em;
   }
-
 }
 
 @media only screen and (min-width: 1550px) {
-
   .project-container {
     padding: 7em var(--side-padding);
   }
@@ -149,37 +147,31 @@ $topPadding: 8;
     padding-top: 12em;
     padding-bottom: 8em;
   }
-
 }
 
 @media only screen and (min-width: 1950px) {
-
   .project-container {
-
     .featured-title {
       font-size: 3.8em;
       line-height: 1.25em;
     }
-  
+
     .featured-desc {
       font-size: 1.2em;
       line-height: 1.9em;
       margin-bottom: 4vh;
     }
-  
+
     .subtitle {
       text-transform: uppercase;
       font-size: 1.8em;
-      letter-spacing: .1em;
-      margin-bottom: .2em;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.2em;
     }
-
   }
-
 }
 
 @media only screen and (min-width: 2100px) {
-
   .project-container {
     padding: 8em var(--side-padding);
   }
@@ -188,5 +180,4 @@ $topPadding: 8;
     padding-top: 15em;
     padding-bottom: 9em;
   }
-
 }

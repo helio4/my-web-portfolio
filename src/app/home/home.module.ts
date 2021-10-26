@@ -7,22 +7,14 @@ import { SkillsSectionComponent } from './components/skills-section/skills-secti
 import { ProjectComponent } from './components/project/project.component';
 import { RouterModule } from '@angular/router';
 
-
-
 @NgModule({
   declarations: [
     HomePageComponent,
     HeroSectionComponent,
     SkillsSectionComponent,
-    ProjectComponent
+    ProjectComponent,
   ],
-  imports: [
-    CommonModule,
-    SharedModule,
-    RouterModule
-  ],
-  exports: [
-    HomePageComponent
-  ]
+  imports: [CommonModule, SharedModule, RouterModule],
+  exports: [HomePageComponent],
 })
-export class HomeModule { }
+export class HomeModule {}

@@ -14,7 +14,7 @@ $topPadding: 8;
 
     li {
       margin-top: 30px;
-      background: #E6E8E9;
+      background: #e6e8e9;
       border-radius: 20px;
       padding: 1.8em;
     }
@@ -47,8 +47,8 @@ h1 {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.8em;
-  margin: .3em 0;
-  letter-spacing: .02em;
+  margin: 0.3em 0;
+  letter-spacing: 0.02em;
 }
 
 .skill-content {
@@ -61,7 +61,6 @@ h1 {
 }
 
 @media only screen and (min-width: 800px) {
-
   .skills-container {
     min-height: 33em;
   }
@@ -72,20 +71,18 @@ h1 {
     grid-auto-flow: column;
     grid-gap: 1.5em;
   }
-  
+
   h1 {
     text-align: left;
   }
-  
+
   .skill-icon {
     left: 3px;
     margin: auto 0;
   }
-
 }
 
 @media only screen and (min-width: 1050px) {
-
   .skills-container {
     min-height: 31em;
   }
@@ -96,11 +93,11 @@ h1 {
     grid-auto-flow: column;
     grid-gap: 1.5em;
   }
-  
+
   h1 {
     text-align: left;
   }
-  
+
   .skill-icon {
     left: 27px;
     margin: auto 0;
@@ -108,7 +105,6 @@ h1 {
 }
 
 @media only screen and (min-width: 1250px) {
-
   .skills-container {
     padding-top: 10em;
     padding-bottom: 10em;
@@ -118,11 +114,9 @@ h1 {
       left: calc(10em - 37px);
     }
   }
-
 }
 
 @media only screen and (min-width: 1550px) {
-
   .skills-container {
     padding-top: 12em;
     padding-bottom: 12em;
@@ -132,11 +126,9 @@ h1 {
       left: calc(15em - 37px);
     }
   }
-
 }
 
 @media only screen and (min-width: 2100px) {
-
   .skills-container {
     padding-top: 15em;
     padding-bottom: 15em;
@@ -146,5 +138,4 @@ h1 {
       left: calc(30em - 37px);
     }
   }
-
 }

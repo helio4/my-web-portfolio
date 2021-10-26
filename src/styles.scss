@@ -1,17 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
 :root {
-  --primary-color: #213C4D;
+  --primary-color: #213c4d;
   --secondary-color: #477593;
-  --accent-color: #EDDF73;
+  --accent-color: #eddf73;
   --side-padding: 2em;
 }
 
 body {
   margin: 0;
-  font-family: 'Poppins', arial;
-  background: #FDFDFD;
+  font-family: "Poppins", arial;
+  background: #fdfdfd;
 }
 
 ul {
@@ -37,33 +37,25 @@ img {
 }
 
 @media only screen and (min-width: 1050px) {
-
   :root {
     --side-padding: 4em;
   }
-
 }
 
 @media only screen and (min-width: 1250px) {
-
   :root {
     --side-padding: 10em;
   }
-
 }
 
 @media only screen and (min-width: 1550px) {
-
   :root {
     --side-padding: 15em;
   }
-
 }
 
 @media only screen and (min-width: 2200px) {
-
   :root {
     --side-padding: 30em;
   }
-
 }

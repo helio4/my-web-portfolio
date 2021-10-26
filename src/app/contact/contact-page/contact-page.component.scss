@@ -10,13 +10,12 @@ h1 {
 }
 
 .field {
-
   .help {
     display: block;
     float: right;
     color: rgb(255, 50, 50);
     font-size: 1em;
-    margin-top: .6em;
+    margin-top: 0.6em;
   }
 
   margin-top: 1.9em;
@@ -26,20 +25,21 @@ h1 {
     font-size: 1.3em;
     display: block;
   }
-  
+
   label {
     display: inline-block;
-    margin-bottom: .3em;
+    margin-bottom: 0.3em;
     font-weight: 500;
   }
 
-  input, textarea {
-    font-family: 'Arial';
+  input,
+  textarea {
+    font-family: "Arial";
     font-size: 1.1em;
-    padding: .5em;
+    padding: 0.5em;
     width: 100%;
     border-color: rgb(146, 146, 146);
-    border-radius: .5em;
+    border-radius: 0.5em;
     border-style: solid;
     border-width: 1px;
   }
@@ -48,16 +48,15 @@ h1 {
     min-height: 9em;
     resize: none;
   }
-
 }
 
 button {
   font-size: 1.3em;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 500;
   margin: 0 auto;
   margin-top: 2.5em;
-  padding: .5em 1em;
+  padding: 0.5em 1em;
   border: unset;
   background: var(--accent-color);
   color: black;
@@ -66,7 +65,7 @@ button {
 }
 
 button:disabled {
-  opacity: .45;
+  opacity: 0.45;
 }
 
 button:active {
@@ -82,13 +81,13 @@ button:active {
     color: var(--primary-color);
     font-size: 2em;
     margin: 0;
-    margin-bottom: .8em;
+    margin-bottom: 0.8em;
   }
 
   img {
     filter: invert(1);
     width: 3em;
-    opacity: .85;
+    opacity: 0.85;
   }
 
   ul {
@@ -101,7 +100,6 @@ button:active {
 }
 
 .confirmation {
-
   padding-top: 5em;
   padding-bottom: 2em;
   text-align: center;
@@ -114,8 +112,8 @@ button:active {
     font-size: 2em;
     color: var(--primary-color);
     margin: 0;
-    margin-bottom: .4em;
-    margin-top: .5em;
+    margin-bottom: 0.4em;
+    margin-top: 0.5em;
   }
 
   p {
@@ -123,7 +121,6 @@ button:active {
     font-weight: normal;
     margin: 0;
   }
-
 }
 
 @media only screen and (min-width: 800px) {
@@ -131,7 +128,8 @@ button:active {
     padding: 4em auto;
   }
 
-  form, .confirmation {
+  form,
+  .confirmation {
     width: 35em;
     margin: 0 auto;
   }

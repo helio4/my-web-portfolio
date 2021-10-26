@@ -5,25 +5,19 @@ import { CommonAnimations } from 'src/app/shared/shared.module';
   selector: 'app-project',
   templateUrl: './project.component.html',
   styleUrls: ['./project.component.scss'],
-  animations: [
-    CommonAnimations.fadeInDownCascade
-  ]
+  animations: [CommonAnimations.fadeInDownCascade],
 })
 export class ProjectComponent implements OnInit {
-
   @Input()
   isFeatured: Boolean = false;
   @Input()
-  projectName: string = "";
+  projectName: string = '';
   @Input()
   isFlipped: Boolean = false;
   @Input()
-  projectUrl: string = "#";
+  projectUrl: string = '#';
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-    
-  }
-
+  ngOnInit(): void {}
 }

@@ -1,29 +1,65 @@
 <div class="nav-container">
   <header>
-    <a routerLink="/" class="logo">Jesús<span class="is-accent">Martínez</span></a>
+    <a routerLink="/" class="logo"
+      >Jesús<span class="is-accent">Martínez</span></a
+    >
 
-    <img (click)="toggleMenu()" id="burger" src="../../../../assets/icons/burger_icon.svg" alt="Open navigation menu">
+    <img
+      (click)="toggleMenu()"
+      id="burger"
+      src="../../../../assets/icons/burger_icon.svg"
+      alt="Open navigation menu"
+    />
 
     <nav id="navbar-menu" [@slideIn]="isBurgerMenuOpen ? 'showing' : 'hidden'">
-      <img id="exit-menu" (click)="toggleMenu()" src="../../../../assets/icons/exit.svg" alt="Close navigation menu">
+      <img
+        id="exit-menu"
+        (click)="toggleMenu()"
+        src="../../../../assets/icons/exit.svg"
+        alt="Close navigation menu"
+      />
 
       <ul class="navbar">
-        <li><a routerLink="/" fragment="my-skills">{{'header.skills' | translate}}</a></li>
-        <li><a routerLink="/" fragment="my-work">{{'header.work' | translate}}</a></li>
-        <li><a routerLink="/contact">{{'header.contact' | translate}}</a></li>
-      </ul>      
+        <li>
+          <a routerLink="/" fragment="my-skills">{{
+            "header.skills" | translate
+          }}</a>
+        </li>
+        <li>
+          <a routerLink="/" fragment="my-work">{{
+            "header.work" | translate
+          }}</a>
+        </li>
+        <li>
+          <a routerLink="/contact">{{ "header.contact" | translate }}</a>
+        </li>
+      </ul>
 
       <div *ngIf="!hideSocialHeader" class="social-header">
-        <img id="lang-button" (click)="toggleLanguage()" src="../../../../assets/icons/lang-button.svg" alt="Switch between spanish and english">
-        
-        <hr>
-        
+        <img
+          id="lang-button"
+          (click)="toggleLanguage()"
+          src="../../../../assets/icons/lang-button.svg"
+          alt="Switch between spanish and english"
+        />
+
+        <hr />
+
         <ul>
-          <li><a href="https://www.linkedin.com/in/jemarhe/" target="_blank"><img src="../../../assets/icons/linkedin_logo.svg" alt="Linkedin"></a></li>
-          <li><a href="https://github.com/helio4" target="_blank"><img src="../../../assets/icons/github_logo.svg" alt="Github"></a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/jemarhe/" target="_blank"
+              ><img
+                src="../../../assets/icons/linkedin_logo.svg"
+                alt="Linkedin"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/helio4" target="_blank"
+              ><img src="../../../assets/icons/github_logo.svg" alt="Github"
+            /></a>
+          </li>
         </ul>
       </div>
     </nav>
   </header>
-  
 </div>

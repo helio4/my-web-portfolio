@@ -2,19 +2,22 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CommonAnimations } from './animations/common-animations';
 
-import { TranslateModule, TranslateLoader, TranslateService, TranslatePipe } from '@ngx-translate/core';
+import {
+  TranslateModule,
+  TranslateLoader,
+  TranslateService,
+  TranslatePipe,
+} from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TextareAutoresizeDirective } from './directives/textare-autoresize.directive';
 
-export function translateHttpLoaderFactory (http: HttpClient) {
+export function translateHttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
 
 @NgModule({
-  declarations: [
-    TextareAutoresizeDirective
-  ],
+  declarations: [TextareAutoresizeDirective],
   imports: [
     CommonModule,
     HttpClientModule,
@@ -22,20 +25,14 @@ export function translateHttpLoaderFactory (http: HttpClient) {
       loader: {
         provide: TranslateLoader,
         useFactory: translateHttpLoaderFactory,
-        deps: [HttpClient]
-      }
-    })
+        deps: [HttpClient],
+      },
+    }),
   ],
-  exports: [
-    TranslateModule,
-    TranslatePipe,
-    TextareAutoresizeDirective
-  ]
+  exports: [TranslateModule, TranslatePipe, TextareAutoresizeDirective],
 })
-
-export class SharedModule { 
-
-  availableLang = ['en', 'es']
+export class SharedModule {
+  availableLang = ['en', 'es'];
   trans!: TranslateService;
 
   constructor(public translateService: TranslateService) {
@@ -48,11 +45,10 @@ export class SharedModule {
       lang = navLang;
     }
 
-    translateService.addLangs(this.availableLang)
+    translateService.addLangs(this.availableLang);
     translateService.setDefaultLang(lang);
     translateService.use(lang);
   }
-
 }
 
-export * from './animations/common-animations'
+export * from './animations/common-animations';

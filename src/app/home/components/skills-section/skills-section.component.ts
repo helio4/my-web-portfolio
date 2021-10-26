@@ -5,15 +5,10 @@ import { CommonAnimations } from 'src/app/shared/shared.module';
   selector: 'app-skills-section',
   templateUrl: './skills-section.component.html',
   styleUrls: ['./skills-section.component.scss'],
-  animations: [
-    CommonAnimations.fadeInDownCascade
-  ]
+  animations: [CommonAnimations.fadeInDownCascade],
 })
 export class SkillsSectionComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

@@ -9,22 +9,17 @@ import { ContactModule } from './contact/contact.module';
 import { CoreModule } from './core/core.module';
 import { HomeModule } from './home/home.module';
 
-
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     CoreModule,
     HomeModule,
-    ContactModule
+    ContactModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { 
-
-}
+export class AppModule {}

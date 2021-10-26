@@ -20,7 +20,7 @@
     font-size: 1.3em;
     font-weight: 500;
     background: var(--accent-color);
-    padding: .5em 1.2em;
+    padding: 0.5em 1.2em;
     border-radius: 23px;
     cursor: pointer;
   }
@@ -43,27 +43,21 @@
 }
 
 @media only screen and (min-width: 1250px) {
-
   .cta-container {
     padding-bottom: 10em;
   }
-
 }
 
 @media only screen and (min-width: 1550px) {
-
   .cta-container {
     padding-bottom: 12em;
     padding-top: 2em;
   }
-
 }
 
 @media only screen and (min-width: 2100px) {
-
   .cta-container {
     padding-bottom: 15em;
     padding-top: 3em;
   }
-
 }

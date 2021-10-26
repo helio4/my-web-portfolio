@@ -6,22 +6,17 @@ import { CommonAnimations } from 'src/app/shared/shared.module';
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
-  animations: [
-    CommonAnimations.slideIn
-  ]
+  animations: [CommonAnimations.slideIn],
 })
-
 export class HeaderComponent implements OnInit {
-
   @Input()
   hideSocialHeader: Boolean = false;
 
   isBurgerMenuOpen: Boolean = false;
 
-  constructor (private translateService: TranslateService) {}
+  constructor(private translateService: TranslateService) {}
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   toggleMenu(): void {
     this.isBurgerMenuOpen = !this.isBurgerMenuOpen;

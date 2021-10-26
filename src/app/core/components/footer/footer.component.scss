@@ -11,24 +11,19 @@
     right: -2em;
     height: 25em;
     width: auto;
-    opacity: .05;
+    opacity: 0.05;
   }
 }
 
-
 @media only screen and (min-width: 800px) {
-
   .footer-container {
     display: block;
   }
-
 }
 
 @media only screen and (min-width: 980px) {
-
   .footer-container img {
     right: 0;
     padding-right: var(--side-padding);
   }
-
 }

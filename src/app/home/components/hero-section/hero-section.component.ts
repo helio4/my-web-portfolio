@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { CommonAnimations } from 'src/app/shared/shared.module';
 import { HeroDesignAnimations } from 'src/app/shared/shared.module';
 
-
 @Component({
   selector: 'app-hero-section',
   templateUrl: './hero-section.component.html',
@@ -18,19 +17,19 @@ import { HeroDesignAnimations } from 'src/app/shared/shared.module';
     HeroDesignAnimations.s2ud,
     HeroDesignAnimations.l3lr,
     HeroDesignAnimations.l3ud,
-    HeroDesignAnimations.fadeInUp
-  ]
+    HeroDesignAnimations.fadeInUp,
+  ],
 })
 export class HeroSectionComponent implements OnInit {
-
   isDown: Boolean = true;
   isDown2: Boolean = true;
   startAnimSequence: Boolean = false;
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
-    setTimeout(() => {this.startAnimSequence = true}, 400)
+    setTimeout(() => {
+      this.startAnimSequence = true;
+    }, 400);
   }
-
 }
