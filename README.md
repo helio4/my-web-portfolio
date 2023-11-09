@@ -4,7 +4,7 @@ A website I made entirely from scratch. I used Figma for creating a mock-up of t
 <p align="center">
   <img src="https://user-images.githubusercontent.com/24983230/138455541-4c49f3b7-26bf-4764-bce2-bc65e4af1611.png" width="75%" text-align="middle">
   <br>
-  <sub>You can find this website live at <a href="https://jemarhe.com">jemarhe.com</a></sub>
+  <sub>You can find this website live at <a href="https://jemarhe.pro">jemarhe.pro</a></sub>
 </p>
 
 ## Motivation
@@ -17,7 +17,7 @@ The project was made and completed in the course of a week.
 3. I created the basic modules and components I would need and wrote the basic HTML structure.
 4. I applied styling using SCSS, following a mobile-first approach, as I worked my way up with the different resolutions. The final product was a responsive design that would work in all kinds of modern devices.
 5. Using TypeScript, I wrote the animations and the logic of the website.
-6. Using Cloudflare, I configured my DNS for <a href="https://jemarhe.com">jemarhe.com</a> and finally deployed the website using GitHub Pages.
+6. Using Cloudflare, I configured my DNS for <a href="https://jemarhe.pro">jemarhe.pro</a> and finally deployed the website using GitHub Pages.
 
 ## Used Technologies
 
